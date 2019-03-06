@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0"
+	prefWidth="875.0" style="-fx-background-color: #d9d9d9;"
+	xmlns="http://javafx.com/javafx/10.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.javafx.pruebasfx.controller.FormularioController">
+	<top>
+		<HBox alignment="CENTER_LEFT" prefHeight="100.0"
+			prefWidth="643.0" style="-fx-background-color: #c6c6c6;"
+			BorderPane.alignment="CENTER">
+			<children>
+				<Text fill="#c77e42" lineSpacing="10.0" strokeType="OUTSIDE"
+					strokeWidth="0.0" text="Listado Clientes" textAlignment="RIGHT"
+					textOrigin="CENTER" wrappingWidth="608.03515625">
+					<font>
+						<Font name="Calibri Bold" size="40.0" />
+					</font>
+				</Text>
+			</children>
+		</HBox>
+	</top>
+	<center>
+		<HBox prefHeight="535.0" prefWidth="825.0"
+			BorderPane.alignment="CENTER">
+			<children>
+				<JFXTreeTableView prefHeight="574.0"
+					prefWidth="679.0" />
+			</children>
+		</HBox>
+	</center>
+	<right>
+		<AnchorPane prefHeight="574.0" prefWidth="205.0"
+			style="-fx-background-color: #999999;" BorderPane.alignment="CENTER">
+			<children>
+				<JFXButton fx:id="btnCancelar" blendMode="SRC_ATOP"
+					buttonType="RAISED" layoutX="13.0" layoutY="339.0"
+					prefHeight="52.0" prefWidth="176.0"
+					style="-fx-background-color: #b3b3b3;" text="Cancelar"
+					textFill="#9e5706" textOverrun="CLIP">
+					<font>
+						<Font name="Calibri Bold" size="14.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+					<effect>
+						<DropShadow blurType="GAUSSIAN" color="#e80b0b"
+							height="118.85" radius="59.6675" spread="0.41" width="121.82" />
+					</effect>
+				</JFXButton>
+				<JFXButton fx:id="btnActualizar" blendMode="SRC_ATOP"
+					buttonType="RAISED" layoutX="13.0" layoutY="273.0"
+					prefHeight="52.0" prefWidth="176.0"
+					style="-fx-background-color: #b3b3b3;" text="Actualizar"
+					textFill="#9e5706" textOverrun="CLIP">
+					<font>
+						<Font name="Calibri Bold" size="14.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+					<effect>
+						<DropShadow blurType="GAUSSIAN" color="#e80b0b"
+							height="118.85" radius="59.6675" spread="0.41" width="121.82" />
+					</effect>
+				</JFXButton>
+				<JFXButton fx:id="btnNuevo" blendMode="SRC_ATOP"
+					buttonType="RAISED" layoutX="13.0" layoutY="78.0" prefHeight="52.0"
+					prefWidth="176.0" style="-fx-background-color: #b3b3b3;"
+					text="Nuevo" textFill="#9e5706" textOverrun="CLIP">
+					<font>
+						<Font name="Calibri Bold" size="14.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+					<effect>
+						<DropShadow blurType="GAUSSIAN" color="#e80b0b"
+							height="118.85" radius="59.6675" spread="0.41" width="121.82" />
+					</effect>
+				</JFXButton>
+				<JFXButton fx:id="btnGuardar" blendMode="SRC_ATOP"
+					buttonType="RAISED" layoutX="13.0" layoutY="144.0"
+					prefHeight="52.0" prefWidth="176.0"
+					style="-fx-background-color: #b3b3b3;" text="Guardar"
+					textFill="#9e5706" textOverrun="CLIP">
+					<font>
+						<Font name="Calibri Bold" size="14.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+					<effect>
+						<DropShadow blurType="GAUSSIAN" color="#e80b0b"
+							height="118.85" radius="59.6675" spread="0.41" width="121.82" />
+					</effect>
+				</JFXButton>
+				<JFXButton fx:id="btnModificar" blendMode="SRC_ATOP"
+					buttonType="RAISED" layoutX="13.0" layoutY="209.0"
+					prefHeight="52.0" prefWidth="176.0"
+					style="-fx-background-color: #b3b3b3;" text="Modificar"
+					textFill="#9e5706" textOverrun="CLIP">
+					<font>
+						<Font name="Calibri Bold" size="14.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+					<effect>
+						<DropShadow blurType="GAUSSIAN" color="#e80b0b"
+							height="118.85" radius="59.6675" spread="0.41" width="121.82" />
+					</effect>
+				</JFXButton>
+				<JFXButton fx:id="btnSalir11111" blendMode="SRC_ATOP"
+					buttonType="RAISED" layoutX="13.0" layoutY="468.0"
+					prefHeight="52.0" prefWidth="176.0"
+					style="-fx-background-color: #b3b3b3;" text="Salir"
+					textFill="#9e5706" textOverrun="CLIP">
+					<font>
+						<Font name="Calibri Bold" size="14.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+					<effect>
+						<DropShadow blurType="GAUSSIAN" color="#e80b0b"
+							height="118.85" radius="59.6675" spread="0.41" width="121.82" />
+					</effect>
+				</JFXButton>
+			</children>
+		</AnchorPane>
+	</right>
+</BorderPane>
